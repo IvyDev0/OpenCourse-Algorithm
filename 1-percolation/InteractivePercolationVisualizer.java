@@ -1,6 +1,6 @@
 /******************************************************************************
- *  Compilation:  javac InteractivePercolationVisualizer.java
- *  Execution:    java InteractivePercolationVisualizer n
+ *  Compilation:  javac-algs4 InteractivePercolationVisualizer.java
+ *  Execution:    java-algs4 InteractivePercolationVisualizer n
  *  Dependencies: PercolationVisualizer.java Percolation.java
  *                StdDraw.java StdOut.java
  *
@@ -18,7 +18,7 @@ public class InteractivePercolationVisualizer {
 
     public static void main(String[] args) {
         // n-by-n percolation system (read from command-line, default = 10)
-        int n = 10;          
+        int n = 10;
         if (args.length == 1) n = Integer.parseInt(args[0]);
 
         // repeatedly open site specified my mouse click and draw resulting system
@@ -44,9 +44,6 @@ public class InteractivePercolationVisualizer {
 
                 // open site (i, j) provided it's in bounds
                 if (i >= 1 && i <= n && j >= 1 && j <= n) {
-                    if (!perc.isOpen(i, j)) { 
-                        StdOut.println(i + " " + j);
-                    }
                     perc.open(i, j);
                 }
 
