@@ -1,6 +1,8 @@
-#Algorithm Course Assignments
+# Algorithm Course Assignments
+This is my personal repository for assignments of Algorithm Course by Princeton University on Coursera.
+https://www.coursera.org/learn/algorithms-part1/home/welcome
 
-##week 1: Percolation (100/100)
+## week 1: Percolation (100/100)
 http://coursera.cs.princeton.edu/algs4/assignments/percolation.html
 
 Short Summary:
